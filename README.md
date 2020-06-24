@@ -22,10 +22,10 @@ Modify the Zookepeer and Server .properties
 `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local data_stream.py`
 
 ### kafka consumer console output
-![Kafka Consumer Console Output](https://github.com/joaosal/SF_crime_stats/blob/master/kafka-console-consumer-output.PNG)
+![Kafka Consumer Console Output](https://github.com/joaosal/SF_crime_stats/blob/master/kafka-console-consumer-output.png)
 
 ### Streaming progress reporter
-![Progress Reporter](https://github.com/joaosal/SF_crime_stats/blob/master/spark-streaming-progress-report.PNG)
+![Progress Reporter](https://github.com/joaosal/SF_crime_stats/blob/master/spark-streaming-progress-report.png)
 
 
 ### Output
