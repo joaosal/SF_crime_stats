@@ -1,8 +1,7 @@
 # Kafka and Spark Streaming Integration
 
 ## Overview
-
-In this project, we provide a statistical analyses of the data using Apache Spark Structured Streaming. We created a Kafka server to produce data, a test Kafka Consumer to consume data and ingest data through Spark Structured Streaming. Then we applied Spark Streaming windowing and filtering to aggregate the data and extract count on hourly basis.
+In this project, you will be provided with a real-world dataset, extracted from Kaggle, on San Francisco crime incidents, and you will provide statistical analyses of the data using Apache Spark Structured Streaming. You will draw on the skills and knowledge you've learned in this course to create a Kafka server to produce data, and ingest data through Spark Structured Streaming.
 
 ### How to Run?
 
@@ -22,7 +21,7 @@ Modify the Zookepeer and Server .properties
 `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local data_stream.py`
 
 ### kafka consumer console output
-![Kafka Consumer Console Output](https://github.com/joaosal/SF_crime_stats/blob/master/kafka-console-consumer-output.png)
+![Kafka Consumer Console Output](https://github.com/joaosal/SF_crime_stats/blob/master/kafka-console-consumer-out.png)
 
 ### Streaming progress reporter
 ![Progress Reporter](https://github.com/joaosal/SF_crime_stats/blob/master/spark-streaming-progress-report.png)
